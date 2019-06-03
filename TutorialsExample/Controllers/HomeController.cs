@@ -16,8 +16,7 @@ namespace TutorialsExample.Controllers
 
         public HomeController(IPieRepository pieRepository)
         {
-            _pieRepository = pieRepository;
-`         
+            _pieRepository = pieRepository;         
         }
         // GET: /<controller>/
         public IActionResult Index()
